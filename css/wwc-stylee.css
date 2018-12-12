@@ -52,15 +52,15 @@ body{
 	overflow-x: hidden;
 }
 body:before{
-	content:""; 
-	position:fixed; 
-	top:-15px; 
-	left:0; 
-	width:100%; 
-	height:15px; 
-	z-index:100; 
-	-webkit-box-shadow:0px 0px 10px rgba(0,0,0,.9); 
-	-moz-box-shadow:0px 0px 10px rgba(0,0,0,.9); 
+	content:"";
+	position:fixed;
+	top:-15px;
+	left:0;
+	width:100%;
+	height:15px;
+	z-index:100;
+	-webkit-box-shadow:0px 0px 10px rgba(0,0,0,.9);
+	-moz-box-shadow:0px 0px 10px rgba(0,0,0,.9);
 	box-shadow:0px 0px 10px rgba(0,0,0,.9);
 }
 
@@ -72,7 +72,7 @@ body:before{
 /** Remove the gray background color from active links in IE 10. **/
 a{background-color:transparent}
 a:active,a:hover{outline:0}
-p a:hover,p a:active,p a:focus{color:#df5530;}
+p a:hover,p a:active,p a:focus{color:#a6328a;}
 
 .maincontent p a{position:relative; text-decoration:none;}
 /** .maincontent p a:before{
@@ -82,7 +82,7 @@ p a:hover,p a:active,p a:focus{color:#df5530;}
 	left:0;
 	width:100%;
 	height:2px;
-	background-color:#df5530;
+	background-color:#a6328a;
 	content:"";
 	line-height:1.6em;
 } **/
@@ -97,7 +97,7 @@ svg:not(:root){overflow:hidden}
 	background-color:#25305d;
 }
 h1{
-	letter-spacing:3px; 
+	letter-spacing:3px;
 	font-weight:500;
 	font-family:"futura_mdcn_btmedium", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -127,8 +127,16 @@ h2{
 h3{
 	font-family:"futura_md_btmedium", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-bottom:.5em;
-	font-weight:500; 
-	font-size:23px; 
+	font-weight:500;
+	font-size:23px;
+	letter-spacing:2px;
+	position:relative;
+}
+h4{
+	font-family:"futura_md_btmedium", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom:.5em;
+	font-weight:400;
+	font-size:20px;
 	letter-spacing:2px;
 	position:relative;
 }
@@ -156,12 +164,12 @@ aside{
 	position:fixed;
 	max-width:250px;
 /**	padding-top:-45px; **/
-	height:100%; 
+	height:100%;
 	background-color:#25305d;
 	z-index:10000;
 }
 header{
-	background-color:#e7ede4; 
+	background-color:#e7ede4;
 	height:45px;
 }
 footer{
@@ -176,13 +184,13 @@ section{
 	float:none;
 }
 section.embedded-section{
-	max-width:100%; 
-	background-color:#ffcb06; 
+	max-width:100%;
+	background-color:#e89db1;
 	padding-bottom:50px;
 }
 .embedded-content{
-	max-width:800px; 
-	padding-left:190px; 
+	max-width:800px;
+	padding-left:190px;
 	box-sizing:border-box;
 }
 section#section-11,section#section-06,section#section-12,section#section-10{
@@ -201,8 +209,8 @@ section#section-11,section#section-06,section#section-12,section#section-10{
 	padding-right:2em;
 }
 #logo{
-	background:url("../img/sunlight-foundation-wwc-logo-106x120.png") 50% 50% no-repeat; 
-	display:block; 
+	background:url("../img/sunlight-foundation-wwc-logo-106x120.png") 50% 50% no-repeat;
+	display:block;
 	text-indent:-9999px;
 	height:200px;
 }
@@ -224,13 +232,13 @@ nav button{display:none;} /** hide in desktop **/
 	text-decoration:none;
 }
 .nav a.nav-style{
-	color:#df5530;
+	color:#a6328a;
 }
 .nav a.nav-style:hover{
 	color:#fff;
 }
 .nav a:before,.nav a:after{
-	left:100%; 
+	left:100%;
 	top:0;
 	position:absolute;
 	border:solid transparent;
@@ -241,12 +249,12 @@ nav button{display:none;} /** hide in desktop **/
 	z-index:20000;
 }
 ul.content-list li.li-ec{
-	position:relative; 
+	position:relative;
 	z-index:10;
 }
 .nav a:hover{
 	background-color:#181637;
-	color:#df5530;
+	color:#a6328a;
 	z-index:100000;
 }
 .nav a:hover:before,.nav a:hover:after{
@@ -256,10 +264,10 @@ ul.content-list li.li-ec{
 }
 .maincontent{
 	margin-left:250px;
-	background-color:#6cc8c5;
+	background-color:#a3b1d7;
 }
 h2 a{
-	text-decoration:none; 
+	text-decoration:none;
 	outline:none;
 }
 #p-main{
@@ -289,24 +297,24 @@ h2 a{
 	margin-left:20px;
 }
 footer li a{
-	color:#df5530; 
+	color:#a6328a;
 	font-size:2em;
 }
 .clearboth{
-	clear:both; 
+	clear:both;
 	float:none;
 }
 .clearleft{
-	clear:left; 
+	clear:left;
 	float:none;
 }
 .clearright{
-	clear:right; 
+	clear:right;
 	float:none;
 }
 .br-clear{
-	display:block; 
-	clear:both; 
+	display:block;
+	clear:both;
 	float:none;
 }
 #section-01{
@@ -317,10 +325,10 @@ footer li a{
 #see-great-work{
 	font-weight:600;
 	margin:4em auto;
-	position:relative; 
-	display:block; 
-	color:#df5530; 
-	border:4px solid #df5530; 
+	position:relative;
+	display:block;
+	color:#a6328a;
+	border:4px solid #a6328a;
 	line-height:2.5;
 	width:400px;
 	text-transform:uppercase;
@@ -332,13 +340,13 @@ footer li a{
 	z-index:100;
 	left:43%;
 	top:100%;
-	height:0; 
+	height:0;
 	width:0;
 	border:30px solid rgba(223, 85, 48, 0);
-	border-top-color: #df5530;
+	border-top-color: #a6328a;
 }
 #see-great-work:hover{
-	color:#402820; 
+	color:#402820;
 	border-color:#402820;
 }
 #see-great-work:hover:before{
@@ -350,7 +358,7 @@ footer li a{
 }
 .content-list li{padding-right:25px;}
 .content-list p{
-	margin-left:190px; 
+	margin-left:190px;
 }
 .content-list.content-list-footer h3{padding-top:15px;}
 .content-list.content-list-footer p{margin-left:110px;}
@@ -367,10 +375,18 @@ footer li a{
 	margin-bottom:0;
 	margin-top:15px;
 }
+.li-header-h4{
+	padding-left:180px;
+}
+.li-header h4{
+	/** height:58px; **/ /** 8px accounts for border 4px *2 **/
+	margin-bottom:0;
+	margin-top:15px;
+}
 .li-header:before{
 	position:absolute;
 	content:"";
-	border:4px solid #df5530;
+	border:4px solid #a6328a;
 	height:50px;
 	width:50px;
 	left:110px; /** equals as much as h2-icon padding **/
@@ -380,9 +396,13 @@ footer li a{
 	padding-left:110px;
 	margin-left:0;
 }
+.li-no-header p,.li-no-header h4{
+	padding-left:180px;
+	margin-left:90px;
+}
 .embedded-content{
 	position:relative;
-	background-color:#ffcb06;
+	background-color:#e89db1;
 	padding-top:3.5em;
 	padding-bottom:3.5em;
 	width:100%;
@@ -392,15 +412,15 @@ footer li a{
 .embedded-content-gutter{margin-left:-80px;}
 .embedded-content:before{
 	top:0;
-	position:absolute; 
-	content:""; 
+	position:absolute;
+	content:"";
 	z-index:100;
 	left:110px;
-	width:0px; 
-	height:0px; 
+	width:0px;
+	height:0px;
 	border-left:30px solid transparent;
 	border-right:30px solid transparent;
-	border-top:30px solid #6cc8c5;
+	border-top:30px solid #a3b1d7;
 }
 .h4{ /** only located in embeddable content sections **/
 	color:#fff;
@@ -421,7 +441,7 @@ li.li-ec{margin-top:60px;}
 	padding:1em 1em 0 0;
 }
 .embedded-content-list .ref{
-	color:#df5530;
+	color:#a6328a;
 	text-transform:uppercase;
 	text-decoration:none;
 	font-weight:700;
@@ -434,7 +454,7 @@ li.li-ec{margin-top:60px;}
 	color:#511f11;
 }
 .ref-link{
-	vertical-align:middle; 
+	vertical-align:middle;
 	margin-top:-5px;
 }
 .embedded-content-box{
@@ -443,20 +463,20 @@ li.li-ec{margin-top:60px;}
 	position:relative;
 }
 .embedded-content-box-child{
-	border-top:4px solid #df5530;
+	border-top:4px solid #a6328a;
 }
 .embedded-google-doc{
 	display:block;
 	margin:8em auto;
 	width:720px;
 	height:500px;
-	border:2px solid #df5530;
+	border:2px solid #a6328a;
 	padding:1px;
 	background-color:#fff;
 }
 .wwc-blogposts-read-more{
 	text-transform:uppercase;
-	color:#df5530;
+	color:#a6328a;
 }
 /** both will need :before + content:""; for adding arrow icons **/
 footer li a{
@@ -471,24 +491,24 @@ footer{
 	max-width:800px;
 }
 footer li{
-	margin-top:1em; 
-	margin-bottom:1em; 
+	margin-top:1em;
+	margin-bottom:1em;
 	font-size:1em;
 }
 #section-11 h2{
-	background-color:#25305d; 
+	background-color:#21295e;
 	padding-left:1em;
 }
 #wwc-blogposts-all{
-	margin-top:-68px; 
-	margin-right:15px; 
-	font-size:px; 
-	float:right; 
-	display:block; 
-	border:3px solid #df5530; 
-	text-indent:0; 
-	text-align:center; 
-	color:#df5530; 
+	margin-top:-68px;
+	margin-right:15px;
+	font-size:px;
+	float:right;
+	display:block;
+	border:3px solid #a6328a;
+	text-indent:0;
+	text-align:center;
+	color:#a6328a;
 	line-height:30px;
 	padding:10px 40px 10px 10px;
 	position:relative;
@@ -505,12 +525,12 @@ footer li{
 .section-box-feeds{
 	clear:right;
 	float:none;
-	background-color:#fff; 
+	background-color:#fff;
 	padding:1em;
 }
 .section-box-tweets{
 	padding:1em;
-	clear:left; 
+	clear:left;
 	float:none;
 	/** twitter bg is not transparent....going to need to fix this!!! **/
 	/** background-color:#25305d; **/
@@ -535,22 +555,22 @@ footer li{
 	text-align:left;
 }
 .user{
-	margin-top:1em; 
-	margin-bottom:1.5em; 
-	width:100%; 
-	height:30px; 
+	margin-top:1em;
+	margin-bottom:1.5em;
+	width:100%;
+	height:30px;
 	line-height:30px;
 }
 .user a{
-	display:block; 
-	padding-left:20px; 
+	display:block;
+	padding-left:20px;
 }
 p.tweet,p.timePosted{
-	padding:0 0 0 20px; 
+	padding:0 0 0 20px;
 }
 p.tweet{
 	margin:0;
-	clear:left; 
+	clear:left;
 	float:none;
 }
 p.timePosted{
@@ -560,11 +580,11 @@ p.timePosted{
 	height:30px;
 }
 .user span{
-	float:left; 
+	float:left;
 	display:block;
 }
 #sftweets a{
-	color:#fff; 
+	color:#fff;
 	text-decoration:none;
 }
 .user span img,.user span[data-scribe="element:verified_badge"]{
@@ -574,7 +594,7 @@ span[data-scribe="element:name"]{
 	margin-right:1em;
 }
 #sftweets a[data-scribe="element:url"]{
-	color:#df5530;
+	color:#a6328a;
 	text-decoration:underline;
 }
 #sftweets a[data-scribe="element:url"] span + span{
@@ -584,7 +604,7 @@ span[data-scribe="element:name"]{
 	color:#fff;
 }
 .timePosted a{
-	color:#fff; 
+	color:#fff;
 	font-style:italic;
 }
 .interact{
@@ -605,7 +625,7 @@ span[data-scribe="element:name"]{
 	padding-bottom:1em;
 }
 h3.wwc-blog-post-title{
-	float:left; 
+	float:left;
 	width:32%;
 	height:100%;
 	padding-left:0;
@@ -619,14 +639,14 @@ h3.wwc-blog-post-title{
 	font-size:18px;
 }
 .wwc-blog-post-title a{
-	color:#25305d; 
-	font-weight:300; 	
+	color:#21295e;
+	font-weight:300;
 	padding-left:.25em;
 	padding-right:.25em;
 	display:block;
 }
 .wwc-blogposts-read-more{
-	font-weight:700; 
+	font-weight:700;
 	position:relative;
 	display:block;
 	line-height:20px;
@@ -645,8 +665,8 @@ h3.wwc-blog-post-title{
 	z-index:100;
 }
 #sftweets .nojs{
-	position:absolute; 
-	top:20%; 
+	position:absolute;
+	top:20%;
 	left:45%;
 }
 .leaflet-popup-content-wrapper{
@@ -684,25 +704,25 @@ h1.map-pin-h1{
 	line-height:20px;
 }
 .leaflet-container .leaflet-popup a.leaflet-popup-close-button{
-	color:#df5530;
+	color:#a6328a;
 }
 .leaflet-container .leaflet-popup a.leaflet-popup-close-button:hover{
 	color:#fff;
 	outline:1px solid #fff;
 }
 .xoxo.map-pin-list li{
-	padding-top:5px; 
+	padding-top:5px;
 	padding-bottom:5px;
 }
 .leaflet-container .xoxo.map-pin-list a{
-	color:#df5530; 
+	color:#a6328a;
 	font-size:1.5em;
 	text-decoration:none;
 	font-family:"futura_md_btbold", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height:1.5;
 }
 .leaflet-container .xoxo.map-pin-list .ref-map-link{
-	margin-top:-2px; 
+	margin-top:-2px;
 	vertical-align:middle;
 }
 .leaflet-container .xoxo.map-pin-list a:hover,.leaflet-container .xoxo.map-pin-list a:visited{
@@ -746,7 +766,7 @@ div.blogposts-box h2{
     .embedded-content:before{
     	left:100px;}
     .embedded-content-list{
-    	margin-left:100px; 
+    	margin-left:100px;
     	width:30%;
     }
     .embedded-content-gutter{
@@ -758,8 +778,12 @@ div.blogposts-box h2{
     .li-no-header h3 {
     	padding-left: 100px;
     }
+  }
+  .li-no-header h4 {
+    padding-left: 100px;
+  }
     #section-11 h2{
-    	padding-left:0; 
+    	padding-left:0;
     	font-size:2em;
     }
     #wrapper{
@@ -770,7 +794,7 @@ div.blogposts-box h2{
     	background:none;
     }
     #wwc-logo-wwc,#wwc-logo-sf{
-    	width:100%; 
+    	width:100%;
     	background-position:50% 0;
     }
     #wwc-logo-sf{
@@ -793,7 +817,7 @@ div.blogposts-box h2{
     #wwc-blogposts-all{
 		float:none;
 		clear:left;
-		position:absolute; 
+		position:absolute;
 		bottom:10px;
 		left:170px;
 		font-size:1em;
@@ -816,7 +840,7 @@ div.blogposts-box h2{
 		width:100%;
 	}
 	h2{
-		line-height:1.1; 
+		line-height:1.1;
 		padding-top:1px;
 	}
     #wwc-logo-wwc{
@@ -838,15 +862,15 @@ div.blogposts-box h2{
     	background-position:0 0;
     }
 	section{
-		padding-left:0; 
-		margin-left:0; 
-		margin-right:0; 
+		padding-left:0;
+		margin-left:0;
+		margin-right:0;
 		background-position:20px 0;
 	}
 	aside{
-		position:fixed; 
-		width:100%; 
-		max-width:100%; 
+		position:fixed;
+		width:100%;
+		max-width:100%;
 		z-index:300000;
 		height:80px;
 	}
@@ -857,20 +881,20 @@ div.blogposts-box h2{
 		margin:0;
 	}
 	header,.branding-bar{
-		max-height:45px; 
-		overflow:hidden; 
+		max-height:0px;
+		overflow:hidden;
 		display:none;
-	} /** hide branding bar **/  
+	} /** hide branding bar **/
     h1{
     	position:relative;
     } /** to get point down from top...this is not ideal...do not push to production **/
     #logo{
     	height:90px;
-    	z-index:100; 
-    	position:absolute; 
+    	z-index:100;
+    	position:absolute;
     	width:100%;
     	margin-left:-50%;
-    	top:13px; 
+    	top:13px;
     	left:50%;
     	background-position:50% 0;
     	background-image:url("../img/sunlight-foundation-wwc-logo-80x90.png");
@@ -901,9 +925,9 @@ div.blogposts-box h2{
     nav button{
     	cursor:pointer;
     	display:block;
-    	height:48px; 
-		width:48px; 
-		position:absolute; 
+    	height:48px;
+		width:48px;
+		position:absolute;
 		z-index:200; /** so you can click through **/
 		background:url("../img/hamburglar-nav-white-048.png") 0 0 no-repeat;
     }
@@ -924,7 +948,7 @@ div.blogposts-box h2{
 		background-color:#25305d;
 		background-image:none;
 		padding-top:60px;
-	} 
+	}
 	nav li{
 		display:none; /** hide on load **/
 	}
@@ -951,26 +975,26 @@ div.blogposts-box h2{
 		background:url("../img/button-close-nav-rwd.png") 0 0 no-repeat;
 	}
 	.maincontent{
-		width:100%; 
+		width:100%;
 		margin-left:0;
 	}
 	#h1-main{
-		font-size:1.5em; 
-		padding-left:1em; 
+		font-size:1.5em;
+		padding-left:1em;
 		padding-right:1em;
 	}
 	#p-main{
-		padding-left:1em; 
+		padding-left:1em;
 		padding-right:1em;
 	}
 	p{
-		font-size:.85em; 
-		padding-left:0; 
+		font-size:.85em;
+		padding-left:0;
 		padding-right:0;
 	}
 	#see-great-work{
-		width:90%; 
-		font-size:0.75em; 
+		width:90%;
+		font-size:0.75em;
 		margin:2em auto 4em auto;
 	}
 	h2{
@@ -995,13 +1019,16 @@ div.blogposts-box h2{
 	.content-list li.gutter{
 		padding-left:90px;
 	}
+  .content-list li.gutter h4{
+    padding-left:90px;
+  }
 	li.li-header{
 		padding-top:10px;
 	}
 	.li-header:before{
-		top:15px; 
-		left:29px; 
-		height:25px; 
+		top:15px;
+		left:29px;
+		height:25px;
 		width:25px;
 	}
 	.li-no-header p,.li-no-header h3{
@@ -1015,7 +1042,7 @@ div.blogposts-box h2{
 	}
 	p.timePosted{margin:.5em 0 0 0;}
 	#wwc-blogposts h2{
-		margin-left:0; 
+		margin-left:0;
 		text-indent:0;
 		line-height:1.5em;
 		height:auto;
@@ -1036,10 +1063,15 @@ div.blogposts-box h2{
 		min-height:200px;
 	}
 	.section-box-feeds h3{
-		float:none; 
-		clear:left; 
-		width:100%	
+		float:none;
+		clear:left;
+		width:100%
 	}
+.section-box-feeds h4{
+  float:none;
+  clear:left;
+  width:100%
+}
 	#wwc-blogposts{
 		background-color:#fff;
 	}
@@ -1061,7 +1093,7 @@ div.blogposts-box h2{
 	.wwc-logo{
 		height:56px;
 		float:none;
-		margin-left:auto; 
+		margin-left:auto;
 		margin-right:auto;
 	}
 	#wwc-logo-wwc{
@@ -1101,7 +1133,7 @@ div.blogposts-box h2{
 		display:block;
 		margin-left:auto;
 		margin-right:auto;
-		margin-bottom:10px; 
+		margin-bottom:10px;
 		font-size:1em;
 	}
 	.testclass{
@@ -1109,7 +1141,7 @@ div.blogposts-box h2{
 	}
 	/** .ref-list{padding-right:10px;} **/
 	.embedded-content{
-		padding-left:90px; 
+		padding-left:90px;
 		padding-right:10px;
 	}
 	.embedded-content-list a.ref{
