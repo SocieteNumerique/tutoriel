@@ -6,7 +6,7 @@
 
 # Source du contenu
 
-Le contenu est adapté du _Tutoriel pour les communs numériques_ réalisé suite à [https://www.numerique-en-commun.fr](Numérique en commun[s]).
+Le contenu est adapté du _Tutoriel pour les communs numériques_ réalisé suite à [https://www.numerique-en-commun.fr](Numérique en communs).
 
 Retrouvez sur le dépôt GitLab d'inno3 : https://framagit.org/inno3/tutoriel-communs-numeriques ou visualisez le sur https://inno3.frama.io/tutoriel-communs-numeriques/
 
